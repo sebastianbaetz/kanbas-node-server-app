@@ -16,7 +16,7 @@ mongoose.connect(CONNECTION_STRING);
 const app = express()
 app.use(cors({
         credentials: true,
-        origin: 'https://a6--wonderful-sunburst-b43e0e.netlify.app/#/project/account'
+        origin: 'https://a6--wonderful-sunburst-b43e0e.netlify.app'
     }
 ));
 
